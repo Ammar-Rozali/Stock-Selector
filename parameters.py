@@ -5,7 +5,8 @@ from tensorflow.keras.layers import LSTM
 # Window size or the sequence length
 N_STEPS = 90
 # Lookup step, 1 is the next day
-LOOKUP_STEP = 15
+## For this version is will predict day 1 until selected day (LOOKUP_STEP)
+LOOKUP_STEP = 5
 
 # test ratio size, 0.2 is 20%
 TEST_SIZE = 0.2
@@ -43,7 +44,7 @@ ticker = "7160.kl"
 # create csv file
 ticker_data_filename = os.path.join("data", f"{ticker}_{date_now}.csv")
 
-model_name = f"{date_now}_{ticker}-Loss-{LOSS}-step-{LOOKUP_STEP}-epoch{EPOCHS}"
+model_name = f"{date_now}_{ticker}-Loss-{LOSS}"
 
 
 if BIDIRECTIONAL:
