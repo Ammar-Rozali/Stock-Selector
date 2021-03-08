@@ -10,4 +10,6 @@ If you want to stop the program after train, model path will save at ‘results/
 
 Each day train will be producing model and for the test will be produce predicted price
 
-from my testing the getting more days you want predict, the more accuracy it gets. For example, if your ‘LOOKUP_STEP = 20’, days 20 more gain more accuracy from previous days. ‘EPOCHS = 800’ and ‘N_STEPS = 90’ is the best parameter for my testing. You also can play around with ‘N_STEPS’, ‘EPOCHS’ and ‘LOOKUP_STEP’ see which combination works best.
+From my testing the getting more days you want predict, the more accuracy it gets. For example, if your ‘LOOKUP_STEP = 20’, days 20 more gain more accuracy from previous days.
+
+‘EPOCHS = 800’ and ‘N_STEPS = 90’ is the best parameter for my testing. You also can play around with ‘N_STEPS’, ‘EPOCHS’ and ‘LOOKUP_STEP’ see which combination works best.
