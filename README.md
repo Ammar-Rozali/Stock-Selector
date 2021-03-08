@@ -2,7 +2,7 @@
 
 The stock prediction program is referred from the [tutorial](https://www.thepythoncode.com/article/stock-price-prediction-in-python-using-tensorflow-2-and-keras) and you can see the original code [here]( https://github.com/x4nth055/pythoncode-tutorials/tree/master/machine-learning/stock-prediction). This program was edited for make train and test for few days in one run
 
-First, you need to choose what stock you want to test using this script at yahoo finance and identify the code stock. Then change in ‘parameters.py ‘at ‘ticker’. At same file change at ‘LOOKUP_STEP‘  parameter how many days you want to predict
+First, you need to choose what stock you want to test using this script at yahoo finance and identify the code stock. Then change in ‘parameters.py‘ at ‘ticker’. At same file change at ‘LOOKUP_STEP‘ parameter how many days you want to predict
 
 Run ‘main.py’
 
